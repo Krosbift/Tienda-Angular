@@ -2,8 +2,8 @@
 import { Sequelize } from 'sequelize';
 
 // iniciando la conexion con la base de datos
-const db = new Sequelize('db_angularprueba', 'nol0pt8ocodu75yhpja7', 'pscale_pw_KBExVAcYmoJPzciXT9qSTNvSLwzMAQTU8vXb8r7RQ22', {
-  host: 'host',
+const db = new Sequelize('db_angularprueba', 'vulmhj5flkgpwn306txv', 'pscale_pw_RwSmHJlFttPuxkZfDLn31PsR77ZbdBEthxPuloLMNkm', {
+  host: 'us-east.connect.psdb.cloud',
   dialect: 'mysql',
   dialectOptions: {
     ssl: {
