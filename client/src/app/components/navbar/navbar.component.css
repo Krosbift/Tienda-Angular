@@ -1,5 +1,6 @@
 .example-spacer {
     flex: 1 1 auto;
+    background-color: #f2921d;
   }
 
 .navbar{
@@ -7,8 +8,17 @@
     justify-content: space-between;
     padding: 2rem;
     position: fixed;
+    background-color: #6679e5;
 }
 
 .navbar > button {
     margin: 20px;
+}
+
+.example-icon {
+    background-color: #f2921d;
+}
+
+.home {
+    background-color: #f2921d;
 }

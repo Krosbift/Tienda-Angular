@@ -9,15 +9,15 @@ CREATE TABLE users (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   username VARCHAR(255) UNIQUE NOT NULL,
   password VARCHAR(255) UNIQUE NOT NULL,
-  phone INT UNIQUE NOT NULL,
+  phone VARCHAR(255) UNIQUE NOT NULL,
   email VARCHAR(255) UNIQUE NOT NULL,
   root BOOLEAN NOT NULL,
   address TEXT NOT NULL
 );
 
--- creacion de el registro para el usuario admin con password => admin12345
+-- creacion de el registro para el usuario admin con password => admin
 INSERT INTO users (username, password, phone, email, root, address) VALUES
-("admin", "IDxDV01zlMDKBD6GbG3IZA==", 12345, "santiago.torifa@utp.edu.co", true, "admin");
+("admin", "zOlJ4UxjWsntcRAJbw2S3w==", "123456789", "santiago.torifa@utp.edu.co", true, "admin");
 
 -- creacion de la tabla de productos
 CREATE TABLE productos (

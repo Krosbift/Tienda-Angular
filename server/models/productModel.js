@@ -28,7 +28,5 @@ const ProductModel = db.define('productos', {
   updatedAt: false
 });
 
-ProductModel.sync({ alter: true })
-
 // exportando el modelo de la tabla de productos
 export default ProductModel;

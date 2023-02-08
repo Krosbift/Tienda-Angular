@@ -14,7 +14,9 @@ body {
 
 main {
     display: grid;
-    background-color: antiquewhite;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/882/531/original/dark-blue-technology-background-free-vector.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
     min-height: 100vh;
     min-width: 100vw;
     grid-template-rows: auto 1fr auto;

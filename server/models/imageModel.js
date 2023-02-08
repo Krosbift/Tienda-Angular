@@ -16,7 +16,5 @@ const ImageModel = db.define('images', {
   updatedAt: false
 });
 
-ImageModel.sync({ alter: true })
-
 // exportando el modelo de la tabla de imagenes
 export default ImageModel;

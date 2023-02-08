@@ -29,7 +29,5 @@ const UserModel = db.define('users', {
 }
 )
 
-UserModel.sync({ alter: true })
-
 // exportando el modelo de la tabla de usuarios
 export default UserModel;
